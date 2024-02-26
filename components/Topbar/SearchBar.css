@@ -1,0 +1,119 @@
+.searchInputs {
+  border: 1px solid rgba(75, 88, 88, 0.26);
+  border-radius: 30px;
+  width: 100%;
+  margin: auto;
+
+  text-align: center;
+}
+.searchInputs:focus {
+  margin: auto;
+}
+.searchInputs::placeholder {
+  /* Most modern browsers support this now. */
+
+  text-align: center;
+
+  opacity: 0.7;
+}
+.topbarCenter {
+  flex: 4;
+}
+.search {
+  width: 75%;
+  height: 30px;
+  padding-top: 3.5px;
+  background-color: rgb(255, 255, 255);
+  flex-direction: row;
+  border-radius: 30px;
+  flex: auto;
+  border: none;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  place-items: center;
+}
+.search:focus {
+  outline: none;
+}
+.searchIcon {
+  height: 60px;
+  width: 20px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+}
+
+*:focus {
+  outline: none;
+}
+.searchIcon svg {
+  font-size: 35px;
+}
+
+.dataResult {
+  margin: auto;
+  margin-top: 3px;
+  border-bottom-right-radius: 4%;
+  border-bottom-left-radius: 4%;
+  width: 400px;
+  height: 250px;
+  background-color: rgba(227, 243, 232, 0.932);
+  box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 10px;
+  overflow-y: auto;
+  z-index: 800; 
+}
+
+.dataResult::-webkit-scrollbar {
+  display: none;
+}
+
+.dataResult .dataItem {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  color: black;
+}
+
+.dataItem p {
+  margin: auto;
+  color: black;
+  margin: auto;
+  align-items: center;
+  width: 100%;
+  font-weight: 600;
+  z-index: 999;
+  font-size: 18px;
+}
+.dataItem:hover {
+  color: rgb(16, 138, 101);
+  text-decoration: none;
+  background-color: lightgrey;
+}
+.dataItem p:hover {
+  color: rgb(13, 128, 93);
+  text-decoration: none;
+}
+.topbarImgs {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-left: 4%;
+  object-fit: cover;
+  cursor: pointer;
+  background-color: lightgrey;
+}
+
+a {
+  text-decoration: none;
+}
+
+.a:hover {
+  background-color: lightgrey;
+}
+
+#clearBtn {
+  cursor: pointer;
+}

@@ -1,0 +1,74 @@
+.bookList2 {
+    flex: 4;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 600px;
+    width:auto;
+    
+  }
+  
+  .bookListUser1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bookListImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 5%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .bookListEdit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #acb436;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .bookListDeploy {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #01773e;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .bookListUndeploy {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #ac1111;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .bookListDeploy {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #01773e;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .bookListCancel {
+  
+    color: #ac1111;
+    cursor: pointer;
+  }
+  .bookListConfirm {
+  
+    color: #01773e;
+    cursor: pointer;
+  
+  }
+  .bookListDelete {
+    color: red;
+    cursor: pointer;
+  }
+  

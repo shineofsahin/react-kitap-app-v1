@@ -45,12 +45,7 @@ export const authenticate = (response, next) => {
     setLocalStorage('user', response.data.user);
     next();
 };
-// Kullanıcı auth
-export const postauthenticate = (response, next) => {
-    setCookie('post', response.data.token);
-    setLocalStorage('post', response.data.user);
-    next();
-};
+
 
 // Kullanıcı info
 export const isAuth = () => {

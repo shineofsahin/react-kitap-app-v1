@@ -1,0 +1,309 @@
+.post {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.815);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.808);
+  margin: 30px 0;
+}
+.post2 {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.815);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.808);
+  margin: 30px 0;
+  background-color: #dddcdc;
+}
+
+.postWrapper {
+  padding: 10px;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postProfileImg {
+  width: 37px;
+  height: 37px;
+  margin-left: 12px;
+  border-radius: 60%;
+  object-fit: cover;
+}
+.postText {
+ font-weight: 500;
+ font-size: 17px;
+ margin-left: 12px;
+}
+.bookListDeploy {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #01773e;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.postText2 {
+  font-weight: 500;
+  font-size: 11px;
+  margin-left: 10px;
+  width: auto;
+  height: auto;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.445);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.329);
+  background-color: #912622;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 5px;
+ }
+ .postText3 {
+  font-weight: 500;
+  font-size: 12px;
+  margin-left: 10px;
+  width: auto;
+  height: auto;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.445);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.329);
+  background-color: #01773e;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 5px;
+ }
+.postUsername {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(0, 138, 30);
+  margin: 0 10px;
+}
+
+.postCity {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(0, 2, 0);
+  margin: 0 10px;
+}
+
+.postDate {
+  font-size: 13px;
+  color: rgba(1, 14, 3, 0.747);
+  font-weight: 600;
+}
+
+.postCenter {
+  margin: 20px 0;
+}
+
+.postImg {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.postBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postBottomLeft {
+  display: flex;
+  align-items: center;
+}
+
+.likeIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.postLikeCounter {
+  font-size: 15px;
+  margin-left: 5px;
+
+  font-weight: bold;
+}
+.bookmarkLikeCounter {
+  font-size: 10px;
+  font-weight: bold;
+}
+.bookmark{
+ float: right;
+}
+.postCommentText {
+  cursor: pointer;
+  border-bottom: 1px dashed gray;
+  font-size: 15px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  color: black;
+  font-size: 16px;
+  border: none;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.on {
+  color: rgb(3, 105, 25);
+}
+.off {
+  color: #ccc;
+}
+.star-ratings {
+  align-self: center;
+  font-size: 2px;
+}
+.stars {
+  align-items: center;
+  size: 23px;
+ 
+}
+.star-container {
+  width: 106px;
+}
+
+.star-icons {
+  background: #fff;
+  width: 90%;
+  overflow: hidden;
+}
+
+.star {
+  width: 120px;
+}
+.rating {
+  width: 120px;
+  height: 24px;
+  position: relative;
+  background-color: gray;
+}
+
+.rating progress.rating-bg {
+  -webkit-appearance: none;
+  -moz-appearence: none;
+  appearance: none;
+  border: none;
+  display: inline-block;
+  height: 24px;
+  width: 100%;
+  color: orange;
+}
+
+.rating progress.rating-bg::-webkit-progress-value {
+  background-color: orange;
+}
+
+.rating progress.rating-bg::-moz-progress-bar {
+  background-color: orange;
+}
+
+.rating svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.dropbtns:hover {
+opacity: 0.9;
+background-color: #389122;
+transition: transform 0.4s ease-in;
+transition: transform 0.4s ease-out;
+transform: scale(1);
+}
+.dropbtns2:hover {
+  opacity: 0.9;
+  background-color: #912622;
+  transition: transform 0.4s ease-in;
+  transition: transform 0.4s ease-out;
+  transform: scale(1);
+  }
+.b {
+  display: inline-block;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown .dropbtn :hover {
+  background-color: none;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 15px 15px 15px 15px;
+}
+.dropdown-content :hover {
+  background-color: rgba(255, 0, 0, 0);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  min-width: 160px;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 15px 15px 15px 15px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgb(123, 151, 69);
+  border-radius: 15px 15px 15px 15px;
+}
+/* Links inside the dropdown */
+.dropdown-content button {
+  color: black;
+  position: relative;
+  min-width: 100%;
+  background-color: #ffffffc0;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 15px 15px 15px 15px;
+}
+.dropdown-content Link {
+  color: black;
+  position: relative;
+  min-width: 100%;
+  background-color: #ffffffc0;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+  border-radius: 15px 15px 15px 15px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content button:hover {
+  background-color: rgba(102, 151, 69, 0.877);
+  border-radius: 15px 15px 15px 15px;
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #000000;
+  border-radius: 20px;
+  padding: 8px;
+}

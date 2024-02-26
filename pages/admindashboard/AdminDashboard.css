@@ -1,0 +1,16 @@
+.container11{
+    display: flex;
+    margin-top: 10px;
+    margin: auto;
+    margin-right: 20px;
+    width: auto;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,41 @@
+.Reportlist2 {
+    flex: 4;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 600px;
+    width:auto;
+    flex-direction: column;
+  }
+  .cols{
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .ReportlistUser1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ReportlistImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 5%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .ReportlistEdit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .ReportlistDelete {
+    color: red;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,43 @@
+.feed {
+    flex: 5.5;
+  }
+  
+  .feedWrapper {
+    padding: 20px;
+  }
+  .searchbars {
+    width: 60%;
+    text-align: center;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #adc9c362;
+    margin: auto;
+  
+    margin-top: 1.5rem;
+    border: 1px solid rgba(75, 88, 88, 0.26);
+  }
+  
+  .searchIcon {
+    font-size: 20px !important;
+    margin-left: 10px;
+  }
+  .searchInputs::placeholder {
+    /* Most modern browsers support this now. */
+    color: rgb(44, 42, 42);
+    text-align: center;
+  
+    opacity: 0.7;
+  }
+  .searchInputs {
+    width: 90%;
+    border: none;
+    background-color: #0e917500;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+  }
+  
+  .searchInputs:focus {
+    outline: none;
+  }
+  
